@@ -1,0 +1,19 @@
+# OS / tooling
+.DS_Store
+Thumbs.db
+
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# Node (if you later add tooling)
+node_modules/
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Optional: large exported data (keep for now if small)
+# dashboard/data/*.csv
