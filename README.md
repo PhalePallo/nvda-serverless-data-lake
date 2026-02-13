@@ -5,7 +5,7 @@ This project implements a serverless data lake on AWS for analyzing NVIDIA (NVDA
 - **AWS Glue Data Catalog** (schema + metadata)
 - **Amazon Athena** (serverless SQL analytics)
 - **Parquet curated layer** with partition pruning
-- **Static dashboard** (no paid BI tools) deployed via GitHub Pages
+- **Static dashboard** (no paid BI tools) deployed via S3 Bucket
 
 ## Architecture
 S3 (Landing) → Glue Crawler/Data Catalog → Athena Queries/CTAS → S3 (Curated Parquet) → Athena Views → Static Dashboard
