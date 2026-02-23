@@ -30,9 +30,14 @@ The dashboard lives in `/dashboard` and reads exported Athena results:
 - `dashboard/data/moving_avg.csv`
 - `dashboard/data/daily_returns.csv`
 
+  <img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/3b30e05f-cd06-408c-b376-846d0a6abf62" />
+
+
+
 ### Local run
 You must serve the dashboard via a local server (fetch() won’t work by double-clicking HTML).
 
 From the `dashboard/` folder:
 ```bash
 python -m http.server 5500
+
