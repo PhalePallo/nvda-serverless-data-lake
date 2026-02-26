@@ -61,3 +61,6 @@ This is a common lightweight data-lake pattern for small/medium datasets.
 - Add automation: Lambda triggered on new S3 objects (landing) to run a curated refresh pipeline.
 - Add “recent years” month partitions (e.g., 2019+) for finer pruning without hitting writer limits.
 - Add additional derived metrics: volatility, drawdown, crash-day detector views.
+
+<img width="1895" height="677" alt="ARCHITECTURE DIAGRAM drawio" src="https://github.com/user-attachments/assets/72ab54e0-0b34-4189-856c-91c317db3df5" />
+
